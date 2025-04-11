@@ -16,24 +16,49 @@ export default function HomeScreen() {
         />
       }>
       <ThemedView style={styles.titleContainer}>
-        <ThemedText type="title">Bem vindo!</ThemedText>
+        <ThemedText type="title">Bem vinda!</ThemedText>
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
         <ThemedText type="subtitle">C6 de Danielly</ThemedText>
-        
-          
+
+
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
         <ThemedText type="subtitle">Saldo da conta:</ThemedText>
         <ThemedText>
-        R$:12,00
+          R$:12,00
         </ThemedText>
-        <Button
-  onPress={() => {
-    console.log('You tapped the button!');
-  }}
-  title="PIX"
-/>
+
+        <Button color={'#000000'}
+          onPress={() => {
+            console.log('You tapped the button!');
+          }}
+          title="PIX"
+        />
+
+        <Button color={'#000000'}
+          onPress={() => {
+            console.log('You tapped the button!');
+          }}
+          title="PAGAR"
+
+        />
+
+        <Button color={'#000000'}
+          onPress={() => {
+            console.log('You tapped the button!');
+          }}
+          title="EXTRATO"
+
+        />
+
+        <Button color={'#000000'}
+          onPress={() => {
+            console.log('You tapped the button!');
+          }}
+          title="CONTATOS"
+
+        />
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
         <ThemedText type="subtitle"></ThemedText>
